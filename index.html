@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesom Files sheet.. -->
+  <link rel="stylesheet" href="/CSS/fontawesome.min.css">
+  <link rel="stylesheet" href="/CSS/brands.min.css">
+  <link rel="stylesheet" href="/CSS/solid.min.css">
+  <!-- Boostrap CSS File Sheet... -->
+  <link rel="stylesheet" href="/CSS/bootstrap.min.css">
+  <!-- scroll animation css file -->
+  <link rel="stylesheet" href="/CSS/aos.css">
+  <!-- CSS Main File Sheet... -->
+  <link rel="stylesheet" href="/CSS/style.css">
+  <!-- Main Title... -->
+  <title>Responsive E-commerce Food Shop Website Using Bootstrap-5</title>
+</head>
+<body>
+  <!-- Start navigation... -->
+  <div class="navigation">
+    <div class="container navigation-contnet">
+      <div class="navigation-row">
+        <div class=" " data-aos="fade-right"  data-aos-duration="3000"  data-aos-easing="ease-out">
+          <div class="row-left">
+            <div class="left-left-one">
+               <i class="fa fa-envelope" ></i>
+               <p>osamahshweesh@gmail.com</p>
+              </div>
+              <div class="left-left-two">
+                <i class="fa fa-phone" ></i> 
+                <p>( +60 ) 1121329117</p>
+             </div>
+          </div>
+        </div>
+        <div class="" data-aos="fade-left"  data-aos-duration="3000"  data-aos-easing="ease-out">
+          <div class="row">
+            <div class="right-right-one">
+               <div class="div"><i class="fa-brands fa-facebook"></i></div>
+               <div class="div"><i class="fa-brands fa-twitter" ></i></div>
+               <div class="div"><i class="fa-brands fa-linkedin" ></i></div>
+               <div class="div"><i class="fa-brands fa-whatsapp" ></i></div>
+            </div>
+            <div class="left-left-two"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End navigation... -->
+   <!-- Start the header.... -->
+   <header class="header">
+    <nav class="navbar header navbar-expand-lg navbar-light"  data-aos="fade-up-right" data-aos-duration="3000"  data-aos-easing="ease-out">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"  data-aos="fade-up-right" data-aos-duration="3000"  data-aos-easing="ease-out">Prixima <span class="navbar-brand-dotted">.</span></a>
+          <i class="fa fa-bars navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></i>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent"  data-aos="fade-up-left" data-aos-duration="3000"  data-aos-easing="ease-out">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Team</a></li>
+
+          </ul>
+          <div class="form">
+              <!--Start Button trigger modal -->
+              <button type="button  " class="btn contact-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact</button>
+              <!--End Button trigger modal -->
+              <!-- Start Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5> 
+    
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <!-- Start Modal Body.... -->
+                        <div class="modal-body">
+                          <form action="#">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                            
+                            <label for="lemail">Email Address</label>
+                            <input type="text" id="lemail" name="lemail" placeholder="Your Email..">
+                        
+                            <label for="country">Country</label>
+                            <select id="country" name="country">
+                                <option value="AF">Afghanistan</option>
+                                <option value="AX">Aland Islands</option>
+                                <option value="AL">Albania</option>
+                                <option value="DZ">Algeria</option>
+                                <option value="AS">American Samoa</option>
+                                <option value="AD">Andorra</option>
+                                <option value="AO">Angola</option>
+                                <option value="AI">Anguilla</option>
+                                <option value="AQ">Antarctica</option>
+                                <option value="AG">Antigua and Barbuda</option>
+                                <option value="AR">Argentina</option>
+                                <option value="AM">Armenia</option>
+                                <option value="AW">Aruba</option>
+                                <option value="AU">Australia</option>
+                                <option value="AT">Austria</option>
+                                <option value="AZ">Azerbaijan</option>
+                                <option value="BS">Bahamas</option>
+                                <option value="BH">Bahrain</option>
+                                <option value="BD">Bangladesh</option>
+                                <option value="BB">Barbados</option>
+                                <option value="BY">Belarus</option>
+                                <option value="BE">Belgium</option>
+                                <option value="BZ">Belize</option>
+                                <option value="BJ">Benin</option>
+                                <option value="BM">Bermuda</option>
+                                <option value="BT">Bhutan</option>
+                                <option value="BO">Bolivia</option>
+                                <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+                                <option value="BA">Bosnia and Herzegovina</option>
+                                <option value="BW">Botswana</option>
+                                <option value="BV">Bouvet Island</option>
+                                <option value="BR">Brazil</option>
+                                <option value="IO">British Indian Ocean Territory</option>
+                                <option value="BN">Brunei Darussalam</option>
+                                <option value="BG">Bulgaria</option>
+                                <option value="BF">Burkina Faso</option>
+                                <option value="BI">Burundi</option>
+                                <option value="KH">Cambodia</option>
+                                <option value="CM">Cameroon</option>
+                                <option value="CA">Canada</option>
+                                <option value="CV">Cape Verde</option>
+                                <option value="KY">Cayman Islands</option>
+                                <option value="CF">Central African Republic</option>
+                                <option value="TD">Chad</option>
+                                <option value="CL">Chile</option>
+                                <option value="CN">China</option>
+                                <option value="CX">Christmas Island</option>
+                                <option value="CC">Cocos (Keeling) Islands</option>
+                                <option value="CO">Colombia</option>
+                                <option value="KM">Comoros</option>
+                                <option value="CG">Congo</option>
+                                <option value="CD">Congo, Democratic Republic of the Congo</option>
+                                <option value="CK">Cook Islands</option>
+                                <option value="CR">Costa Rica</option>
+                                <option value="CI">Cote D'Ivoire</option>
+                                <option value="HR">Croatia</option>
+                                <option value="CU">Cuba</option>
+                                <option value="CW">Curacao</option>
+                                <option value="CY">Cyprus</option>
+                                <option value="CZ">Czech Republic</option>
+                                <option value="DK">Denmark</option>
+                                <option value="DJ">Djibouti</option>
+                                <option value="DM">Dominica</option>
+                                <option value="DO">Dominican Republic</option>
+                                <option value="EC">Ecuador</option>
+                                <option value="EG">Egypt</option>
+                                <option value="SV">El Salvador</option>
+                                <option value="GQ">Equatorial Guinea</option>
+                                <option value="ER">Eritrea</option>
+                                <option value="EE">Estonia</option>
+                                <option value="ET">Ethiopia</option>
+                                <option value="FK">Falkland Islands (Malvinas)</option>
+                                <option value="FO">Faroe Islands</option>
+                                <option value="FJ">Fiji</option>
+                                <option value="FI">Finland</option>
+                                <option value="FR">France</option>
+                                <option value="GF">French Guiana</option>
+                                <option value="PF">French Polynesia</option>
+                                <option value="TF">French Southern Territories</option>
+                                <option value="GA">Gabon</option>
+                                <option value="GM">Gambia</option>
+                                <option value="GE">Georgia</option>
+                                <option value="DE">Germany</option>
+                                <option value="GH">Ghana</option>
+                                <option value="GI">Gibraltar</option>
+                                <option value="GR">Greece</option>
+                                <option value="GL">Greenland</option>
+                                <option value="GD">Grenada</option>
+                                <option value="GP">Guadeloupe</option>
+                                <option value="GU">Guam</option>
+                                <option value="GT">Guatemala</option>
+                                <option value="GG">Guernsey</option>
+                                <option value="GN">Guinea</option>
+                                <option value="GW">Guinea-Bissau</option>
+                                <option value="GY">Guyana</option>
+                                <option value="HT">Haiti</option>
+                                <option value="HM">Heard Island and Mcdonald Islands</option>
+                                <option value="VA">Holy See (Vatican City State)</option>
+                                <option value="HN">Honduras</option>
+                                <option value="HK">Hong Kong</option>
+                                <option value="HU">Hungary</option>
+                                <option value="IS">Iceland</option>
+                                <option value="IN">India</option>
+                                <option value="ID">Indonesia</option>
+                                <option value="IR">Iran, Islamic Republic of</option>
+                                <option value="IQ">Iraq</option>
+                                <option value="IE">Ireland</option>
+                                <option value="IM">Isle of Man</option>
+                                <option value="IL">Israel</option>
+                                <option value="IT">Italy</option>
+                                <option value="JM">Jamaica</option>
+                                <option value="JP">Japan</option>
+                                <option value="JE">Jersey</option>
+                                <option value="JO">Jordan</option>
+                                <option value="KZ">Kazakhstan</option>
+                                <option value="KE">Kenya</option>
+                                <option value="KI">Kiribati</option>
+                                <option value="KP">Korea, Democratic People's Republic of</option>
+                                <option value="KR">Korea, Republic of</option>
+                                <option value="XK">Kosovo</option>
+                                <option value="KW">Kuwait</option>
+                                <option value="KG">Kyrgyzstan</option>
+                                <option value="LA">Lao People's Democratic Republic</option>
+                                <option value="LV">Latvia</option>
+                                <option value="LB">Lebanon</option>
+                                <option value="LS">Lesotho</option>
+                                <option value="LR">Liberia</option>
+                                <option value="LY">Libyan Arab Jamahiriya</option>
+                                <option value="LI">Liechtenstein</option>
+                                <option value="LT">Lithuania</option>
+                                <option value="LU">Luxembourg</option>
+                                <option value="MO">Macao</option>
+                                <option value="MK">Macedonia, the Former Yugoslav Republic of</option>
+                                <option value="MG">Madagascar</option>
+                                <option value="MW">Malawi</option>
+                                <option value="MY">Malaysia</option>
+                                <option value="MV">Maldives</option>
+                                <option value="ML">Mali</option>
+                                <option value="MT">Malta</option>
+                                <option value="MH">Marshall Islands</option>
+                                <option value="MQ">Martinique</option>
+                                <option value="MR">Mauritania</option>
+                                <option value="MU">Mauritius</option>
+                                <option value="YT">Mayotte</option>
+                                <option value="MX">Mexico</option>
+                                <option value="FM">Micronesia, Federated States of</option>
+                                <option value="MD">Moldova, Republic of</option>
+                                <option value="MC">Monaco</option>
+                                <option value="MN">Mongolia</option>
+                                <option value="ME">Montenegro</option>
+                                <option value="MS">Montserrat</option>
+                                <option value="MA">Morocco</option>
+                                <option value="MZ">Mozambique</option>
+                                <option value="MM">Myanmar</option>
+                                <option value="NA">Namibia</option>
+                                <option value="NR">Nauru</option>
+                                <option value="NP">Nepal</option>
+                                <option value="NL">Netherlands</option>
+                                <option value="AN">Netherlands Antilles</option>
+                                <option value="NC">New Caledonia</option>
+                                <option value="NZ">New Zealand</option>
+                                <option value="NI">Nicaragua</option>
+                                <option value="NE">Niger</option>
+                                <option value="NG">Nigeria</option>
+                                <option value="NU">Niue</option>
+                                <option value="NF">Norfolk Island</option>
+                                <option value="MP">Northern Mariana Islands</option>
+                                <option value="NO">Norway</option>
+                                <option value="OM">Oman</option>
+                                <option value="PK">Pakistan</option>
+                                <option value="PW">Palau</option>
+                                <option value="PS">Palestinian Territory, Occupied</option>
+                                <option value="PA">Panama</option>
+                                <option value="PG">Papua New Guinea</option>
+                                <option value="PY">Paraguay</option>
+                                <option value="PE">Peru</option>
+                                <option value="PH">Philippines</option>
+                                <option value="PN">Pitcairn</option>
+                                <option value="PL">Poland</option>
+                                <option value="PT">Portugal</option>
+                                <option value="PR">Puerto Rico</option>
+                                <option value="QA">Qatar</option>
+                                <option value="RE">Reunion</option>
+                                <option value="RO">Romania</option>
+                                <option value="RU">Russian Federation</option>
+                                <option value="RW">Rwanda</option>
+                                <option value="BL">Saint Barthelemy</option>
+                                <option value="SH">Saint Helena</option>
+                                <option value="KN">Saint Kitts and Nevis</option>
+                                <option value="LC">Saint Lucia</option>
+                                <option value="MF">Saint Martin</option>
+                                <option value="PM">Saint Pierre and Miquelon</option>
+                                <option value="VC">Saint Vincent and the Grenadines</option>
+                                <option value="WS">Samoa</option>
+                                <option value="SM">San Marino</option>
+                                <option value="ST">Sao Tome and Principe</option>
+                                <option value="SA">Saudi Arabia</option>
+                                <option value="SN">Senegal</option>
+                                <option value="RS">Serbia</option>
+                                <option value="CS">Serbia and Montenegro</option>
+                                <option value="SC">Seychelles</option>
+                                <option value="SL">Sierra Leone</option>
+                                <option value="SG">Singapore</option>
+                                <option value="SX">Sint Maarten</option>
+                                <option value="SK">Slovakia</option>
+                                <option value="SI">Slovenia</option>
+                                <option value="SB">Solomon Islands</option>
+                                <option value="SO">Somalia</option>
+                                <option value="ZA">South Africa</option>
+                                <option value="GS">South Georgia and the South Sandwich Islands</option>
+                                <option value="SS">South Sudan</option>
+                                <option value="ES">Spain</option>
+                                <option value="LK">Sri Lanka</option>
+                                <option value="SD">Sudan</option>
+                                <option value="SR">Suriname</option>
+                                <option value="SJ">Svalbard and Jan Mayen</option>
+                                <option value="SZ">Swaziland</option>
+                                <option value="SE">Sweden</option>
+                                <option value="CH">Switzerland</option>
+                                <option value="SY">Syrian Arab Republic</option>
+                                <option value="TW">Taiwan, Province of China</option>
+                                <option value="TJ">Tajikistan</option>
+                                <option value="TZ">Tanzania, United Republic of</option>
+                                <option value="TH">Thailand</option>
+                                <option value="TL">Timor-Leste</option>
+                                <option value="TG">Togo</option>
+                                <option value="TK">Tokelau</option>
+                                <option value="TO">Tonga</option>
+                                <option value="TT">Trinidad and Tobago</option>
+                                <option value="TN">Tunisia</option>
+                                <option value="TR">Turkey</option>
+                                <option value="TM">Turkmenistan</option>
+                                <option value="TC">Turks and Caicos Islands</option>
+                                <option value="TV">Tuvalu</option>
+                                <option value="UG">Uganda</option>
+                                <option value="UA">Ukraine</option>
+                                <option value="AE">United Arab Emirates</option>
+                                <option value="GB">United Kingdom</option>
+                                <option value="US">United States</option>
+                                <option value="UM">United States Minor Outlying Islands</option>
+                                <option value="UY">Uruguay</option>
+                                <option value="UZ">Uzbekistan</option>
+                                <option value="VU">Vanuatu</option>
+                                <option value="VE">Venezuela</option>
+                                <option value="VN">Viet Nam</option>
+                                <option value="VG">Virgin Islands, British</option>
+                                <option value="VI">Virgin Islands, U.s.</option>
+                                <option value="WF">Wallis and Futuna</option>
+                                <option value="EH">Western Sahara</option>
+                                <option value="YE">Yemen</option>
+                                <option value="ZM">Zambia</option>
+                                <option value="ZW">Zimbabwe</option>
+                            </select>
+                           
+
+
+                            <label for="subject">Subject</label>
+                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                          </form>
+                          <!-- End Modal Body.... -->
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Submit</button>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+            <!-- End Modal -->
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End the header.... -->
+   </header>
+   <!-- Start landing area... -->
+   <section class="landing-area">
+    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+      <div class="carousel-inner" >
+        <div class="carousel-item active">
+            <div class="carousel-item-box"  data-aos="fade-up-right" data-aos-duration="3000"  data-aos-easing="ease-out">
+              <h4>We Craft Digital Experince</h4>
+              <h1>Design Driven for Professionals</h1>
+              <div class="carousal-item-btn">
+                <button class="btn btnright">Get Started</button>
+                <button class="btn btnleft">Out Work</button>
+              </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-item-box">
+            <h4>We Craft Digital Experince</h4>
+            <h1>Design Driven for Professionals</h1>
+            <div class="carousal-item-btn">
+              <button class="btn btnright">Get Started</button>
+              <button class="btn btnleft">Out Work</button>
+            </div>
+          </div>        </div>
+        <div class="carousel-item">
+          <div class="carousel-item-box">
+            <h4>We Craft Digital Experince</h4>
+            <h1>Design Driven for Professionals</h1>
+            <div class="carousal-item-btn">
+              <button class="btn btnright">Get Started</button>
+              <button class="btn btnleft">Out Work</button>
+            </div>
+          </div> 
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+        <span class="carouselprev-icon" aria-hidden="true">PREV</span>
+        <!-- <span class="visually-hidden">Previous</span> -->
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+        <span class="carouselnext-icon" aria-hidden="true">NEXT</span>
+        <!-- <span class="visually-hidden">Next</span> -->
+      </button>
+    </div>
+    <!-- End landing area... -->
+   </section>
+   <!-- Start Services Section -->
+   <section class="services-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 most-left-service"  data-aos="fade-right" data-aos-duration="3000"  data-aos-easing="ease-out">
+          <div class="service-box">
+            <div class="servece-left">
+              <img src="/MEDIA/Service-Section/Digital-Marketting.png" alt="opps something went wrong" draggable="false">
+            </div>
+            <div class="servece-right">
+              <h2>Digital Maeketting</h2>
+              <p>It is a long established fact that a reader will be distracted <br> by the readable content of the page. </p>
+            </div>
+          </div>
+          <div class="service-box">
+            <div class="servece-left">
+              <img src="/MEDIA/Service-Section/Busness-Marketing.png" alt="opps something went wrong" draggable="false">
+            </div>
+            <div class="servece-right">
+              <h2>Business Maeketting</h2>
+              <p>It is a long established fact that a reader will be distracted <br> by the readable content of the page. </p>
+            </div>
+          </div>
+          <div class="service-box">
+            <div class="servece-left">
+              <img src="/MEDIA/Service-Section/E-Comrace.png" alt="opps something went wrong" draggable="false">
+            </div>
+            <div class="servece-right">
+              <h2>E-Mail Maeketting</h2>
+              <p>It is a long established fact that a reader will be distracted <br> by the readable content of the page. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 service-bg" data-aos="fade-left" data-aos-duration="3000"  data-aos-easing="ease-out">
+          <img src="/MEDIA/Service-Section/Section-BG.png" alt="opps something went wrong" draggable="false">
+        </div>
+      </div>
+    </div>
+     <!-- End Services Section -->
+   </section>
+   <!-- Start Portfolio section -->
+   <section class="Portfolio-section">
+      <div class="container">
+        <div  class="portofolio-content" data-aos="fade-right" data-aos-duration="3000"  data-aos-easing="ease-out">
+          <div class="row">
+            <div class="col-md-3 Portfolio-box ">
+              <h3>90K+</h3>
+              <p>Happy Clients</p>
+            </div>
+            <div class="col-md-3 Portfolio-box">
+              <h3>45M</h3>
+              <p>Lines of Code</p>
+            </div>
+            <div class="col-md-3 Portfolio-box">
+              <h3>190</h3>
+              <p>Total Downloads</p>
+            </div>
+            <div class="col-md-3 Portfolio-box">
+              <h3>380K</h3>
+              <p>YouTube Subscribe</p>
+            </div>
+          </div>
+        </div>
+      </div>
+     <!-- End Portfolio section -->
+   </section>
+<!-- Start Jobs Section -->
+<section class="Jobs-section">
+  <div class="container">
+    <div class="jobs-header" data-aos="fade-right" data-aos-duration="3000"  data-aos-easing="ease-out">
+      <span>OUR SERVICES</span>
+      <h2>what we do</h2>
+      <p>Contary to popular belief. Lorem, ipsum is not simply random text. It has <br> roots in a piece of classical latin litriture from 45 BC, marking it over <br> 200 years ago.</p>
+    </div>
+    <div class="jobs-content" >
+      <div class="row" data-aos="fade-left" data-aos-duration="3000"  data-aos-easing="ease-out">
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <div class="card-img">
+              <img src="/MEDIA/Job-section/1.JPG" class=" " alt="opps something went wrong" draggable="false">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Digital Marketing</h4>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus tenetur, libero, doloremque quibusdam error nam expedita, adipisci facere eaque impedit consequatur officiis.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <div class="card-img">
+              <img src="/MEDIA/Job-section/2.png" class=" " alt="opps something went wrong" draggable="false">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Logo Design</h4>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus tenetur, libero, doloremque quibusdam error nam expedita, adipisci facere eaque impedit consequatur officiis.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <div class="card-img">
+              <img src="/MEDIA/Job-section/3.JPG" class=" " alt="opps something went wrong" draggable="false">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Buisness consulting</h4>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus tenetur, libero, doloremque quibusdam error nam expedita, adipisci facere eaque impedit consequatur officiis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top: 50px;" class="row" data-aos="fade-right" data-aos-duration="3000"  data-aos-easing="ease-out">
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <div class="card-img">
+              <img src="/MEDIA/Job-section/4.JPG" class=" " alt="opps something went wrong" draggable="false">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Videography</h4>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus tenetur, libero, doloremque quibusdam error nam expedita, adipisci facere eaque impedit consequatur officiis.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <div class="card-img">
+              <img src="/MEDIA/Job-section/5.JPG" class=" " alt="opps something went wrong" draggable="false">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Brand Identity</h4>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus tenetur, libero, doloremque quibusdam error nam expedita, adipisci facere eaque impedit consequatur officiis.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <div class="card-img">
+              <img src="/MEDIA/Job-section/6.JPG" class=" " alt="opps something went wrong" draggable="false">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Ethical Hacking</h4>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus tenetur, libero, doloremque quibusdam error nam expedita, adipisci facere eaque impedit consequatur officiis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- End Jobs Section -->
+</section>  
+<!-- Start project section -->
+<section class="projects-section">
+  <div class="jobs-header" data-aos="fade-left" data-aos-duration="3000"  data-aos-easing="ease-out">
+    <span>WORK</span>
+    <h2>Successful Projects</h2>
+    <p>Contary to popular belief. Lorem, ipsum is not simply random text. It has <br> roots in a piece of classical latin litriture from 45 BC, marking it over <br> 200 years ago.</p>
+  </div>
+  <div class="container-fludid">
+     <div class="row team-content" data-aos="fade-right" data-aos-duration="3000"  data-aos-easing="ease-out">
+        <div class="col-md-3 team-box">
+          <div class="team-sub-content">
+            <h2>Consulting Marketing</h2>
+            <p>Web design</p>
+          </div>
+        </div>
+        <div class="col-md-3 team-box team-box2">
+          <div class="team-sub-content">
+            <h2>Consulting Marketing</h2>
+            <p>Web design</p>
+          </div>
+        </div>
+        <div class="col-md-3 team-box team-box3">
+          <div class="team-sub-content">
+            <h2>Consulting Marketing</h2>
+            <p>Web design</p>
+          </div>
+        </div>
+     </div>
+     <div class="row team-content" data-aos="fade-left" data-aos-duration="3000"  data-aos-easing="ease-out">
+        <div class="col-md-3 team-box team-box4">
+          <div class="team-sub-content">
+            <h2>Consulting Marketing</h2>
+            <p>Web design</p>
+          </div>
+        </div>
+        <div class="col-md-3 team-box team-box2 team-box5">
+          <div class="team-sub-content">
+            <h2>Consulting Marketing</h2>
+            <p>Web design</p>
+          </div>
+        </div>
+        <div class="col-md-3 team-box team-box3 team-box6">
+          <div class="team-sub-content">
+            <h2>Consulting Marketing</h2>
+            <p>Web design</p>
+          </div>
+        </div>
+     </div>
+  </div>
+  <!-- End team section -->
+</section>
+<!-- Start team section -->
+<section class="team-section">
+  <div class="jobs-header" data-aos="fade-left" data-aos-duration="3000"  data-aos-easing="ease-out">
+    <span>TEAM</span>
+    <h2>Team Members</h2>
+    <p>Contary to popular belief. Lorem, ipsum is not simply random text. It has <br> roots in a piece of classical latin litriture from 45 BC, marking it over <br> 200 years ago.</p>
+  </div>
+  <div class="container">
+    <div class="row box-team" data-aos="fade-right" data-aos-duration="3000"  data-aos-easing="ease-out">
+      <div  class="col-md-3 box-box-team">
+        <div class="team-img ">
+          <img  width="400px" height="400px" src="/MEDIA/project-section/testomonile-6.jpg" alt="">
+          <div class="team-over-lay">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+          </div>
+        </div>
+        <div class="team-contents-box">
+          <h2>Ralph Edwards</h2>
+          <p>Marketing Coordinator</p>
+        </div>
+      </div>
+      <div  class="col-md-3 box-box-team">
+        <div class="team-img">
+          <img  width="400px" height="400px" src="/MEDIA/project-section/testomonile-7.jpg" alt="">
+          <div class="team-over-lay">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+          </div>
+        </div>
+        <div class="team-contents-box">
+          <h2>Marvin McKinney</h2>
+          <p>Marketing Coordinator</p>
+        </div>
+      </div>
+      <div class="col-md-3 box-box-team">
+        <div class="team-img">
+          <img  width="400px" height="400px" src="/MEDIA/team-section/6.jpg" alt="">
+          <div class="team-over-lay">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+          </div>
+        </div>
+        <div class="team-contents-box">
+          <h2>Marvin McKinney</h2>
+          <p>Marketing Coordinator</p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <!-- End team section -->
+</section>
+<!-- Start Blog section -->
+<section class="blog-section">
+   <div class="container">
+    <div class="jobs-header" data-aos="fade-down-left" data-aos-duration="3000"  data-aos-easing="ease-out">
+    <span>BLOG</span>
+    <h2>Blog Post</h2>
+    <p>Contary to popular belief. Lorem, ipsum is not simply random text. It has <br> roots in a piece of classical latin litriture from 45 BC, marking it over <br> 200 years ago.</p>
+  </div>
+  <div class="row blog-section-content"  data-aos="zoom-in" data-aos-duration="3000"  data-aos-easing="ease-out">
+    <div class="col-md-4 ">
+      <div class="card blog-card-box" style="width: 18rem;">
+        <img src="/MEDIA/BLOG/user1.jpg" class="card-img-top" alt="...">
+        <span>wed design</span>
+        <div class="card-body">
+          <a href="#">01 DEC, 2022</a>
+          <h5 class="card-title">Web Design Trends in 2022</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure fugit quisquam ut corporis inventore laboriosam ducimus ullam ex aut, ad atque debitis!</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 ">
+      <div class="card blog-card-box" style="width: 18rem;">
+        <img src="/MEDIA/BLOG/user2.jpg" class="card-img-top" alt="...">
+        <span>wed design</span>
+        <div class="card-body">
+          <a href="#">01 DEC, 2022</a>
+          <h5 class="card-title">Web Design Trends in 2022</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure fugit quisquam ut corporis inventore laboriosam ducimus ullam ex aut, ad atque debitis!</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 ">
+      <div class="card blog-card-box" style="width: 18rem;">
+        <img src="/MEDIA/BLOG/1.jpg" class="card-img-top" alt="...">
+        <span>wed design</span>
+        <div class="card-body">
+          <a href="#">01 DEC, 2022</a>
+          <h5 class="card-title">Web Design Trends in 2022</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure fugit quisquam ut corporis inventore laboriosam ducimus ullam ex aut, ad atque debitis!</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row blog-section-content" data-aos="zoom-in" data-aos-duration="3000"  data-aos-easing="ease-out">
+    <div class="col-md-4 ">
+      <div class="card blog-card-box" style="width: 18rem;">
+        <img src="/MEDIA/BLOG/2.JPG" class="card-img-top" alt="...">
+        <span>wed design</span>
+        <div class="card-body">
+          <a href="#">01 DEC, 2022</a>
+          <h5 class="card-title">Web Design Trends in 2022</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure fugit quisquam ut corporis inventore laboriosam ducimus ullam ex aut, ad atque debitis!</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 ">
+      <div class="card blog-card-box" style="width: 18rem;">
+        <img src="/MEDIA/BLOG/blog-bg.jpg" class="card-img-top" alt="...">
+        <span>wed design</span>
+        <div class="card-body">
+          <a href="#">01 DEC, 2022</a>
+          <h5 class="card-title">Web Design Trends in 2022</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure fugit quisquam ut corporis inventore laboriosam ducimus ullam ex aut, ad atque debitis!</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 ">
+      <div class="card blog-card-box" style="width: 18rem;">
+        <img src="/MEDIA/BLOG/user1.jpg" class="card-img-top" alt="...">
+        <span>wed design</span>
+        <div class="card-body">
+          <a href="#">01 DEC, 2022</a>
+          <h5 class="card-title">Web Design Trends in 2022</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure fugit quisquam ut corporis inventore laboriosam ducimus ullam ex aut, ad atque debitis!</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+   </div>
+  <!-- End Blog section -->
+</section>
+
+   <!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted footer">
+    <!-- Section: Social media -->
+    <section class="  justify-content-center footer-top-section p-4 border-bottom " data-aos="fade-right" data-aos-duration="3000"  data-aos-easing="ease-out">
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block"><span>Get Connected with us on Social Networks:</span></div>
+        <!-- Left -->
+        <!-- Right -->
+        <div class="footer-links">
+          <a href="" class="me-4 text-reset"><i class="fa-brands fa-facebook"></i></a>
+          <a href="" class="me-4 text-reset"><i class="fa-brands fa-twitter"></i></a>
+          <a href="" class="me-4 text-reset"><i class="fa-brands fa-google"></i></a>
+          <a href="" class="me-4 text-reset"><i class="fa-brands fa-instagram"></i></a>
+          <a href="" class="me-4 text-reset"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="" class="me-4 text-reset"><i class="fa-brands fa-github"></i></a>
+          <!-- Right -->
+        </div>
+        <!-- Section: Social media -->
+    </section>
+    <section class="" data-aos="fade-left" data-aos-duration="3000"  data-aos-easing="ease-out">
+      <!-- Section: Links  -->
+      <div class="footer-inner-content text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 footer-first-col">
+            <!-- Content -->
+            <h6 class=" fw-bold mb-4"><i class="fas fa-gem me-3"></i>Prixima<span>.</span></h6>
+            
+            <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 footer-second-col">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">MEMBER</h6>
+            <p><a href="#!" class="text-reset">Membership</a></p>
+            <p><a href="#!" class="text-reset">Registration</a></p>
+            <p><a href="#!" class="text-reset">Member Benefits</a></p>
+            <p> <a href="#!" class="text-reset">Member T&Cs</a></p>  
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 footer-thired-col">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Who We Are</h6>  
+            <p><a href="#!" class="text-reset">Sustainability</a></p>
+            <p><a href="#!" class="text-reset">Press Releases</a></p>
+            <p> <a href="#!" class="text-reset">Careers</a></p>
+            <p><a href="#!" class="text-reset">Terms & Conditions</a></p>    
+          </div>
+          <!-- Grid column -->
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 footer-fourth-col">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fa fa-home"></i>Jalan Gomback, IIUM Campus, 53100</p>
+            <p><i class="fa fa-envelope" ></i> info@example.com</p>
+            <p><i class="fa fa-phone"></i> + 60 112 821 2124</p>
+            <p><i class="fa fa-print"></i> + 60 112 821 2124</p>
+          </div>  
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05); color: #fff;">
+      © 2024 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Prixima.com</a>
+    </div>
+    <!-- Copyright -->
+    <!-- Footer -->
+</footer>
+    <!-- Javascript Files sheet...   -->
+  <script src="/JS/popper.min.js"></script>
+  <script src="/JS/bootstrap.min.js"></script>
+  <script src="/JS/aos.js"></script>
+  <script src="/JS/main.js"></script>
+</body>
+</html>
